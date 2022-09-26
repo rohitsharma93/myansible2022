@@ -1,0 +1,5 @@
+---
+- name: i want to install jenkins
+  get_url:
+      url: https://get.jenkins.io/war-stable/2.361.1/jenkins.war
+      dest: /opt/tomcat/webappps
